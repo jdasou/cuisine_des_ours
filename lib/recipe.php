@@ -16,7 +16,7 @@ function getRecipeImage(string| null $image): string
 }
 
 function getRecipes(PDO $pdo, int $limit = null){
-    $sql ='SELECT * FROM recipes ORDER BY id DESC '; //recupere tous les recette et les classe pars la plus recente et pour alleatoire mettre RAND() au lieu du id
+    $sql ='SELECT * FROM recipes ORDER BY RAND() DESC '; //recupere tous les recette et les classe pars la plus recente et pour alleatoire mettre RAND() au lieu du id
 
     if ($limit){
         $sql .= ' LIMIT :limit ';
