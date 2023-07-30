@@ -1,6 +1,6 @@
 :root {
-    --primary: #ff8264;
-    --secondary: #ffaa64;
+    --primary: #AC6C19;
+    --secondary: #AC6C19;
     --success: #28a745;
     --danger: #dc3545;
     --warning: #fd7e14;
@@ -17,11 +17,11 @@
     --bs-btn-bg: var(--primary);
     --bs-btn-border-color: var(--secondary);
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #ffc697;
+    --bs-btn-hover-bg: #D9CAB3;
     --bs-btn-hover-border-color: var(--secondary);
     --bs-btn-focus-shadow-rgb: 49,132,253;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #ff8e31;
+    --bs-btn-active-bg: #AC6C19;
     --bs-btn-active-border-color: var(--secondary);
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;

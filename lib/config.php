@@ -7,6 +7,7 @@
           'index.php' => 'Accueil',
           'recettes.php' => 'Nos recettes',
           'ajout_modification_recette.php' =>' ajout/modif recette',
+          
 
       ];
 
